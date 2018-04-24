@@ -27,16 +27,28 @@ margin: 0 0 24px;
 h3 { color: #ff4411;
 font-size: 48px;
 font-family: 'Signika', sans-serif;
-padding-bottom: 10px;
+padding-bottom: -3px;
 }
 
+h4 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #fb6155;
+}
 p { font-family: 'Inder', sans-serif;
 line-height: 28px;
 color: #666;
 }
 
 marquee{
-  background-color: #B0B0B0;
+  background-color: #C8C8C8;
+  padding: 10px;
+  font-family: 'Inder', sans-serif;
+  line-height: 28px;
+  color: #666;
 }
 
 .undertext{
@@ -137,7 +149,28 @@ marquee{
 .board{
   background-color: #fb6155;
   display: flex;
-  padding: 7px
+  padding: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.board2{
+  background-color: #fb6155;
+  display: flex;
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+
+  color: #FFFFFF;
 }
 
 .button{
@@ -170,12 +203,13 @@ marquee{
 }
 
 .nyboxcontent{
-  background-color: blue;
+  background-color: grey;
   height: 300px;
 }
 
 .introruta img{
-  width: 500px;
+  width: 100%;
+  padding: 20px;
 }
 
 .ytterbox{
@@ -185,6 +219,32 @@ marquee{
 .bottenbar{
 display: none;
 }
+
+.article4block{
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.article4block img {
+  width: 100%
+}
+
+.article4block p {
+  color: #FFFFFF;
+}
+
+.fyrblock{
+  width: 100%;
+  display: flex;
+  background-color: #484848;
+}
+.blocktext{
+  height: 20px;
+  background-color: #484848;
+  padding: 10px;
+}
+
 
 @media (max-width: 600px){
 .bottenbar {
@@ -199,4 +259,27 @@ height: 50px
 .introruta{
   display: block;
 }
+
+.introruta img{
+  width: 80%;
+  padding: 10px;
+  align-items: center;
+}
+
+.fyrblock {
+width: 100%;
+display:inline-block;
+justify-content: center;
+padding-top: 30px;
+padding-left: 30px;
+padding-right: 30px;
+}
+.article4block{
+    width: 60%;
+    padding: 20px;
+    text-align:center;
+    align-content: center;
+  }
+}
+
 }
